@@ -25,6 +25,5 @@ ADD  assets /srv/assets
 COPY ["index.html", "smk-config.json", "smk-init.js", "/srv/"]
 COPY --from=BUILD_IMAGE /srv/node_modules /srv/node_modules
 
-
 EXPOSE 8888
 ENTRYPOINT ["caddy", "file-server", "--listen", ":8888", "." ]
