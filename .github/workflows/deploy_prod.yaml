@@ -12,11 +12,6 @@ on:
     types: 
       - closed
       
-# debugging
-# -------------
-# on: 
-#   push:
-#     branches: ['dev', 'smk-cdci']
 
 jobs:
   deployprod:
