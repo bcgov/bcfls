@@ -1367,18 +1367,6 @@
     ],
     "tools": [
         {
-            "id": "@identify-location",
-            "title": "Identify Location",
-            "style": {
-                "markerUrl": "inc[ 'tool-identify-config.crosshair-png' ]",
-                "markerSize": [ 40, 40 ],
-                "markerOffset": [ 20, 20 ]
-            },
-            "legend": {
-                "point": false
-            }
-        },
-        {
             "type": "toolbar",
             "enabled": true
         },
