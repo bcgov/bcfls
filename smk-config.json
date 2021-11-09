@@ -1409,7 +1409,7 @@
             "command": {
                 "allVisibility": true,
                 "filter": true,
-                "legend": false
+                "legend": true
             },
             "glyph": {
                 "visible": "check_circle",
@@ -1635,7 +1635,7 @@
         },
         {
             "type": "legend",
-            "enabled": true
+            "enabled": false
         }
     ],
     "version": "1.0.4",
